@@ -5,7 +5,8 @@ export const DocumentContainer = styled.div`
   font-family: Space Grotesk;
   display: flex;
   flex-direction: column;
-  width: 40rem;
+  width: 50rem;
+  max-width: 90%;
   border-radius: 0.5rem;
   border: 1px solid #eaeaea;
 `;

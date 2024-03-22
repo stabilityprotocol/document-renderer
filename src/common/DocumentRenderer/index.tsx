@@ -13,7 +13,7 @@ export const DocumentRenderer: React.FC<{
 }> = ({ doc }) => {
   return (
     <DocumentContainer>
-      <AttestationTitle>Title</AttestationTitle>
+      <AttestationTitle>Bill of Lading</AttestationTitle>
       <AttestationHorizontalGroup>
         <AttestationGroup>
           <AttestationTitle>Issuer</AttestationTitle>
