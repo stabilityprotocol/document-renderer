@@ -1,0 +1,183 @@
+{
+  "pages": {
+    "overview": {
+      "fileName": "Document ID",
+      "holder": "Holder",
+      "titleEscrow": "Title Escrow",
+      "beneficiary": "Beneficiary",
+      "timestamp": "Last Update",
+      "mockFileName": "Random file",
+      "addressCopy": "Address copied to clipboard",
+      "unknown": "Unknown",
+      "filterOptions": {
+        "default": "Apply Filter",
+        "involved": "Involved",
+        "holding": "Holding",
+        "owner": "Owner",
+        "beneficiary": "Beneficiary"
+      }
+    },
+    "document": {
+      "action": "Action",
+      "title-escrow-actions": "Transferable Record Actions",
+      "owner": "Owner",
+      "holder": "Holder",
+      "timestamp": "Timestamp",
+      "goBack": "Back",
+      "actions": {
+        "TokenReceived": "Document Issued",
+        "BeneficiaryTransfer": "Change of beneficiary",
+        "HolderTransfer": "Change of holder",
+        "Nomination": "Nominate Change of Owner",
+        "Surrender": "Surrender"
+      },
+      "selector": {
+        "default": "Select an action",
+        "download": "Download JSON",
+        "view": "View Document",
+        "token": "Explore Document",
+        "copyShareUrl": "Copy Shareable URL",
+        "shareUrlCopied": "Shareable URL copied to clipboard"
+      }
+    },
+    "verify": {
+      "title": "Verify Document",
+      "description": "The verification process for a wrapped document entails a thorough examination to determine if any alterations have been made, verify the validity of the document's issuance state, and confirm the authenticity of the issuer's identity, as outlined in the identity proof section.",
+      "actionInfo": "Drag and drop a document here, or click to select a file to verify.",
+      "submit": "Select a file",
+      "document": {
+        "back": "Back",
+        "downloadJson": "Download JSON",
+        "verification": {
+          "loading": "Verifying...",
+          "notTampered": "✅ Document has not been tampered with",
+          "tampered": "🚫 Document has been tampered with",
+          "issued": "✅ Document has been issued",
+          "notIssued": "🚫 Document has not been issued",
+          "issuerIdentified": "✅ Issuer has been identified",
+          "issuerNotIdentified": "🚫 Issuer has not been identified",
+          "issuedBy": "Issued by {{domain}}"
+        }
+      }
+    },
+    "viewer": {
+      "loading": "Loading...",
+      "documentNotFound": "Document not found",
+      "download": "Download JSON",
+      "copy": {
+        "button": "Copy URL",
+        "action": "Copied to clipboard"
+      }
+    },
+    "createDocument": {
+      "title": "New Document",
+      "createButton": "Create",
+      "copyFromIssuer": "Copy from Issuer",
+      "notifications": {
+        "emptyFields": "Please fill in all fields",
+        "pending": "Creating document...",
+        "success": "Document created",
+        "error": "Error creating document, check console for more info"
+      },
+      "keys": {
+        "issuer": "Issuer",
+        "shipper": "Shipper",
+        "consignee": "Consignee",
+        "notifyParty": "Notify Party",
+        "portOfLoading": "Port of Loading",
+        "portOfDischarge": "Port of Discharge",
+        "descriptionOfGoods": "Description of Goods",
+        "vessel": "Vessel",
+        "referenceNo": "Reference Number",
+        "cargoGrossWeight": "Cargo Gross Weight",
+        "measurement": "Measurement",
+        "dateOfIssue": "Date of Issue",
+        "shippedOnBoardDate": "Shipped on Board Date"
+      },
+      "hero": {
+        "p1": "You are on the verge of issuing a new Bill of Lading document that will be securely recorded on the blockchain, ensuring its permanence and immutability. It is crucial to verify the accuracy of all details before finalizing the document.",
+        "p2": "This document adheres to the TradeTrust framework for digital documents, offering a standardized, secure, and trusted way to manage and verify documents on the blockchain. For further details about Tradetrust and its benefits, please visit <0>TRADETRUST.io</0>."
+      }
+    }
+  },
+  "components": {
+    "spinner": {
+      "loading": "Loading...",
+      "updating": "Updating..."
+    },
+    "footer": {
+      "copyright": "COPYRIGHT © 2024 STABILITY SOLUTIONS INC. ALL RIGHTS RESERVED.",
+      "contactUs": "CONTACT US",
+      "followUs": "FOLLOW US",
+      "addStability": "ADD STABILITY"
+    },
+    "header": {
+      "upgrade": "Upgrade",
+      "docs": "Docs",
+      "networks": {
+        "20180427": "Testnet",
+        "101010": "GTN",
+        "invalid": "Invalid Network"
+      },
+      "web3": {
+        "copyAddress": "Copy Address",
+        "logOut": "Log Out",
+        "explorer": "Explorer"
+      }
+    },
+    "connectionModal": {
+      "title": "Manage your access to the Stability Ecosystem",
+      "email": "EMAIL",
+      "newUser": "NEW USER",
+      "magiclink": "MAGICLINK",
+      "magiclinkNoModals": "MAGICLINK (NO MODALS)",
+      "metamask": "METAMASK"
+    },
+    "sidebar": {
+      "newDocument": "New Document",
+      "overview": "Overview",
+      "verifyDoc": "Verify Document",
+      "myOrganizations": "My Organizations",
+      "support": "Support",
+      "logOut": "Log Out"
+    },
+    "documentRenderer": {
+      "title": "Bill of Lading",
+      "issuer": "Issuer / Shipping agent",
+      "shipper": "Shipper",
+      "consignee": "Consignee",
+      "notifyParty": "Notify Party",
+      "portOfLoading": "Port of Loading",
+      "portOfDischarge": "Port of Discharge",
+      "cargoGrossWeight": "Cargo Gross Weight",
+      "measurement": "Measurement",
+      "descriptionOfGoods": "Description of Goods",
+      "vessel": "Vessel",
+      "referenceNo": "Reference No",
+      "dateOfIssue": "Date of Issue",
+      "dateOfShipped": "Shipped on Board date"
+    },
+    "selector": {
+      "defaultPlaceholder": "Select an option"
+    },
+    "shortAddress": {
+      "you": "(You)"
+    }
+  },
+  "links": {
+    "tradetrust": "https://tradetrust.io/",
+    "explorer": "https://stability-testnet.blockscout.com/",
+    "explorerTx": "https://stability-testnet.blockscout.com/tx/{{hash}}",
+    "explorerBlock": "https://stability-testnet.blockscout.com/block/{{blockNumber}}",
+    "explorerAddress": "https://stability-testnet.blockscout.com/address/{{address}}",
+    "docs": "https://docs.stabilityprotocol.com/",
+    "contactForm": "https://stabilityprotocol.com/contact-us",
+    "x": "https://x.com/stabilityinc",
+    "linkedin": "https://www.linkedin.com/company/stabilitysolutions/",
+    "testnet-api": "https://api.stabilityprotocol.com/testnet",
+    "GTN-api": "https://api.stabilityprotocol.com/gtn",
+    "upload-file-gateway": "",
+    "supabase-bucket-read": "https://enienjyzmhlrrekzurkm.supabase.co/storage/v1/object/public/transferable-records/upload-file-gateway/documents",
+    "supabase-bucket-write": "https://enienjyzmhlrrekzurkm.supabase.co/functions/v1/upload-file-gateway"
+  }
+}
