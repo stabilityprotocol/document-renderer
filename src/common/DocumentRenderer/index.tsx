@@ -8,7 +8,7 @@ import {
   DocumentContainer,
 } from "./Styles";
 
-export const DocumentRenderer: React.FC<{
+export const BoLRenderer: React.FC<{
   doc: BillOfLadingDocument;
 }> = ({ doc }) => {
   return (

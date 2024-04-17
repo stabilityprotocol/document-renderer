@@ -5,6 +5,7 @@ export const DocumentContainer = styled.div`
   font-family: Space Grotesk;
   display: flex;
   flex-direction: column;
+  min-height: 30rem;
   width: 50rem;
   max-width: 90%;
   border-radius: 0.5rem;

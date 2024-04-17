@@ -28,6 +28,7 @@
     "@emotion/styled": "^11.11.0",
     "@faker-js/faker": "^8.4.1",
     "@govtechsg/open-attestation": "^6.9.0",
+    "@tanstack/react-query": "^5.29.2",
     "@tradetrust-tt/decentralized-renderer-react-components": "^3.14.0",
     "@tradetrust-tt/tradetrust": "^6.9.0",
     "@tradetrust-tt/tradetrust-ui-components": "2.22.2",
@@ -37,7 +38,9 @@
     "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
     "react-i18next": "^14.1.0",
+    "react-icons": "^5.1.0",
     "styled-components": "^6.1.8",
     "xml2js": "^0.6.2"
   },

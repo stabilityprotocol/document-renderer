@@ -57,6 +57,17 @@ export interface BillOfLadingDocument {
   shippedOnBoardDate: string;
 }
 
+export interface StbleFileDocument {
+  $template: {
+    name: "STABILITY_FILE";
+    type: v2.TemplateType.EmbeddedRenderer;
+    url: string;
+  };
+  mimeType: string;
+  hash: string;
+  url: string;
+}
+
 export const generateMockBillOfLading = (): BillOfLadingSchema => {
   return {
     version: SchemaId.v2,
